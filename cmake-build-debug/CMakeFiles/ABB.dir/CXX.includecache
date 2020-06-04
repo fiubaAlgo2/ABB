@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/carolina/Documentos/algo2/2020/ABB/include/BST.h
+BSTNode.h
+/home/carolina/Documentos/algo2/2020/ABB/include/BSTNode.h
+iostream
+-
+
+/home/carolina/Documentos/algo2/2020/ABB/include/BSTNode.h
+
+/home/carolina/Documentos/algo2/2020/ABB/main.cpp
+iostream
+-
+include/BST.h
+/home/carolina/Documentos/algo2/2020/ABB/include/BST.h
+

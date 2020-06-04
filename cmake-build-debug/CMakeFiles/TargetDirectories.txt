@@ -1,0 +1,3 @@
+/home/carolina/Documentos/algo2/2020/ABB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/carolina/Documentos/algo2/2020/ABB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/carolina/Documentos/algo2/2020/ABB/cmake-build-debug/CMakeFiles/ABB.dir

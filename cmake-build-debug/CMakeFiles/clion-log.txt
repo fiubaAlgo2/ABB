@@ -1,0 +1,4 @@
+/home/carolina/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/carolina/Documentos/algo2/2020/ABB
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/carolina/Documentos/algo2/2020/ABB/cmake-build-debug
