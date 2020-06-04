@@ -23,7 +23,7 @@ Cola::~Cola()
     }
 }
 
-void Cola::Encolar(int entero)
+void Cola::push(int entero)
 {
     Nodo* ptr_nodo = new Nodo(entero);
     
@@ -40,7 +40,7 @@ void Cola::Encolar(int entero)
     this->tamanio++;
 }
 
-int Cola::Desencolar()
+int Cola::pop()
 {
     int datoDesacolado=0;
     
@@ -72,6 +72,10 @@ bool Cola::cola_vacia()
 unsigned int Cola::get_tamanio()
 {
     return this->tamanio;
+}
+
+bool Cola::colaVacia() {
+    return this->tamanio == 0;
 }
 
 

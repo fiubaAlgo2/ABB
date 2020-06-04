@@ -29,12 +29,12 @@ public:
     //Acola
     //pre: la cola ha sido creada y dato es valido
     //post: agrega un dato (adentro de un nodo) al final de la cola
-    void Encolar(int entero);
+    void push(int entero);
     
     //Desacola
     //pre: la cola ha sido creada y no esta vacia
     //post: libera el primer dato de la cola y devuelve el dato desacolado
-    int Desencolar();
+    int pop();
     
     //Obtiene el dato que esta primero en la cola
     //pre: la cola ha sido creada
@@ -50,6 +50,8 @@ public:
     //pre: la cola ha sido creada
     //post: devuelve el valor de tamanio (cantidad de nodos de la lista)
     unsigned int get_tamanio();
+
+    bool colaVacia();
     
 };
 #endif //Cola_h_included

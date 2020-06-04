@@ -3,5 +3,6 @@
 
 CMakeFiles/ABB.dir/main.cpp.o: ../include/BST.h
 CMakeFiles/ABB.dir/main.cpp.o: ../include/BSTNode.h
+CMakeFiles/ABB.dir/main.cpp.o: ../include/Cola.h
 CMakeFiles/ABB.dir/main.cpp.o: ../main.cpp
 

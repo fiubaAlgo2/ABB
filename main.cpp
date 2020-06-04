@@ -20,6 +20,7 @@ int main()
 
     //cout<<bst->get_root()->get_right()->get_data()<<endl;
 
+    bst->width(bst->get_root())
     delete bst;
 
 
