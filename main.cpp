@@ -14,13 +14,8 @@ int main()
     for(int i=0;i<9;i++)
         bst->insert(datos[i]);
 
+    bst->print_in_order();
 
-    //bst->print_in_order();
-    //bst->remove(31);
-
-    //cout<<bst->get_root()->get_right()->get_data()<<endl;
-
-    bst->width(bst->get_root())
     delete bst;
 
 
