@@ -73,6 +73,8 @@ BST<T>::BST() {
     this->root = NULL;
 }
 
+// INSERT, COMPLEXITY WORST CASE: O(h) = O(log2(n))
+// h: height, n: #nodes
 template <class T>
 BSTNode<T>* BST<T>::insert(BSTNode<T>* node, T data) {
 
@@ -96,6 +98,8 @@ void BST<T>::insert(T data)
     this->root = insert(this->root, data);
 }
 
+// PRINT IN ORDER, COMPLEXITY WORST CASE: O(n)
+// n: #nodes
 template <class T>
 void BST<T>::print_in_order(BSTNode<T>* node)
 {
@@ -113,6 +117,8 @@ void BST<T>::print_in_order()
     this->print_in_order(this->root);
 }
 
+// SEARCH, COMPLEXITY WORST CASE: O(h) = O(log2(n))
+// h: height, n: #nodes
 template <class T>
 BSTNode<T>* BST<T>::search(BSTNode<T>* node, T data)
 {
@@ -133,6 +139,8 @@ bool BST<T>::search(T data)
     return result != NULL;
 }
 
+// FIND_MIN COMPLEXITY: O(h) = O(log2(n))
+// h: height, n: #nodes
 template <class T>
 T BST<T>::find_min(BSTNode<T>* node)
 {
@@ -150,6 +158,8 @@ T BST<T>::find_min()
     return find_min(this->root);
 }
 
+// FIND_MAX COMPLEXITY: O(h) = O(log2(n))
+// h: height, n: #nodes
 template <class T>
 T BST<T>::find_max(BSTNode<T>* node)
 {
@@ -183,6 +193,9 @@ T BST<T>::successor(BSTNode<T>* node)
         }
         else
             ancestor = ancestor->get_right();
+    }
+    if(successor == NULL) {
+        return -1;
     }
     return successor->get_data();
 }
